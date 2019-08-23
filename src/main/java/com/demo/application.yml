@@ -1,0 +1,21 @@
+---
+app:
+  id: "superheros"
+  name: "Superheros"
+  description: ""
+  img: ""
+  thumbnail: null
+server:
+  port: 8080
+spring:
+  datasource:
+    url: "jdbc:mysql://localhost/superheros?verifyServerCertificate=false&useSSL=true&reconnect=true"
+    username: "root"
+    password: "****"
+    driver-class-name: "com.mysql.jdbc.Driver"
+  jpa:
+    generate-ddl: true
+    show-sql: false
+    database-platform: "org.hibernate.dialect.MySQLDialect"
+    hibernate:
+      ddl-auto: "update"
