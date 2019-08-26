@@ -18,7 +18,6 @@ import org.einnovator.util.model.ToStringCreator;
 import org.hibernate.annotations.Fetch;
 import org.hibernate.annotations.FetchMode;
 
-//cmt2
 public class Superhero {
 
     @Column()
