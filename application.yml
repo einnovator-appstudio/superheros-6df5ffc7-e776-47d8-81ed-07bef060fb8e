@@ -1,0 +1,21 @@
+---
+app:
+  id: "superheros"
+  name: "Superheros"
+  description: "xx"
+  img: "http://localhost:2020/_/~jsimao71@gmail.com/.upload/avatar-ei-superhero300-1570358810815.png"
+  thumbnail: null
+server:
+  port: 8080
+spring:
+  datasource:
+    url: "jdbc:mysql://localhost/superheros?verifyServerCertificate=false&useSSL=true&reconnect=true"
+    username: "root"
+    password: "****"
+    driver-class-name: "com.mysql.jdbc.Driver"
+  jpa:
+    gen-ddl: true
+    show-sql: false
+    database-platform: "org.hibernate.dialect.MySQLDialect"
+    hibernate:
+      ddl-auto: "update"
