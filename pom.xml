@@ -99,7 +99,7 @@
         <repository>
             <id>einnovator</id>
             <name>EInnovator</name>
-            <url>http://einnovator-mvnrepo/release</url>
+            <url>https://einnovator-mvnrepo.s3.amazonaws.com/release</url>
         </repository>
     </repositories>
 </project>
