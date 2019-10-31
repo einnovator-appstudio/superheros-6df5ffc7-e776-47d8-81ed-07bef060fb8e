@@ -77,6 +77,7 @@
                 <artifactId>spring-boot-maven-plugin</artifactId>
             </plugin>
         </plugins>
+<!--
         <extensions>
             <extension>
                 <groupId>com.allogy.maven.wagon</groupId>
@@ -84,6 +85,7 @@
                 <version>1.1.0</version>
             </extension>
         </extensions>
+-->
     </build>
     <repositories>
         <repository>
@@ -97,7 +99,7 @@
         <repository>
             <id>einnovator</id>
             <name>EInnovator</name>
-            <url>s3://einnovator-mvnrepo/release</url>
+            <url>http://einnovator-mvnrepo/release</url>
         </repository>
     </repositories>
 </project>
